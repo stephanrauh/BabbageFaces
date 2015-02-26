@@ -36,8 +36,8 @@
 		<gmavenVersion>1.4</gmavenVersion>
 		<gmavenProviderSelection>2.0</gmavenProviderSelection>
 		<groovyVersion>2.1.7</groovyVersion>
-		<myfaces.version>2.2.3</myfaces.version>
-		<mojarra.version>2.2.2</mojarra.version>
+		<myfaces.version>2.2.7</myfaces.version>
+		<mojarra.version>2.2.10</mojarra.version>
 		<jetty.version>8.1.5.v20120716</jetty.version>
 	</properties>
 	<repositories>
@@ -130,7 +130,7 @@
 		<dependency>
 			<groupId>org.primefaces</groupId>
 			<artifactId>primefaces</artifactId>
-			<version>5.1-SNAPSHOT</version>
+			<version>5.1</version>
 		</dependency>
 		<dependency>
 			<groupId>junit</groupId>
