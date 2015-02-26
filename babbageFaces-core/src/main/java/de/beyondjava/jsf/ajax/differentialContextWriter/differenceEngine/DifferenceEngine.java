@@ -693,6 +693,7 @@ public class DifferenceEngine {
 
                 }
                 else if ((!"error-name".equals(change.getNodeName()))
+                        && (!"eval".equals(change.getNodeName()))
                         && (!"error-message".equals(change.getNodeName()))) {
                     LOGGER.severe("Unexpected JSF response (" + change.getNodeName() + ")");
                     originalOtherTags++;
